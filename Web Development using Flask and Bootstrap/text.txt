@@ -1,0 +1,13 @@
+1. Jalankan server lokal dengan me-*run* **app.py** via Visual Studio Code. Namun, kita harus memilih interpreter python terlebih dahulu.
+    A. Tekan tombol **Ctrl** + **Shift** + **P**, kemudian ketik **Python: Select Interpreter** pada jendela yang muncul, lalu tekan **Enter**.
+    B. Pilih virtual environment yang akan kita pakai dalam me-run app.py. Pada hands-on kali ini kita akan memilih virtual environment bawaan Anaconda, yakni flask.
+    C. Tampilkan terminal pada Visual Studio Code dengan menekan tombol Ctrl + ` , atau klik menu View kemudian klik Terminal.
+    D. Setelah Terminal muncul, jika terminal yang terbuka adalah PowerShell kita perlu menambahkan terminal baru dengan tipe Command Prompt, klik tanda dropdown untuk menambahkan Terminal baru
+    E. Ketik code berikut di terminal, lalu tekan Enter.
+        - python app.py
+        atau
+        - flask run
+    F. Tunggu hingga muncul tampilan seperti "Running on http://127.0.0.1:5000". Selanjutnya tahan tombol Ctrl lalu klik kiri pada link "http://127.0.0.1:5000" yang muncul di terminal.
+    G. Browser default kemudian akan menampilkan Website Flask secara otomatis.  Selamat, kalian telah berhasil melakukan local deployment menggunakan Flask 🥳 🤩.
+    H. 8. Stop aplikasi
+        - Klik kiri pada lokasi terminal, lalu tekan tombol kombinasi: `CTRL + C` untuk menghentikan server Flask.
